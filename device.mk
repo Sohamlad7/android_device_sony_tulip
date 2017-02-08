@@ -59,5 +59,5 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.usb.pid_suffix=1C4
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/kanuti/platform.mk)
+$(call inherit-product, device/sony/kanuti-common/platform.mk)
 $(call inherit-product, vendor/sony/kanuti-tulip/tulip-vendor.mk)
