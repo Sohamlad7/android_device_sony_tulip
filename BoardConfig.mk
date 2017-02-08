@@ -17,3 +17,5 @@ include device/sony/kanuti-common/PlatformConfig.mk
 TARGET_BOOTLOADER_BOARD_NAME := E2303
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=tulip
+
+TARGET_OTA_ASSERT_DEVICE := tulip,E2303,E2306,E2312,E2333,E2353,E2363
