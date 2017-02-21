@@ -14,5 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_e2303-userdebug
-add_lunch_combo aosp_e2333-userdebug
+add_lunch_combo lineage_tulip-userdebug

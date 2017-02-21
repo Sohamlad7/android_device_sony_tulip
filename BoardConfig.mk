@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/kanuti/PlatformConfig.mk
+include device/sony/kanuti-common/PlatformConfig.mk
+include device/sony/kanuti-common/PlatformConfig2.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E2303
 
